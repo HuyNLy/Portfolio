@@ -38,21 +38,21 @@ export default function Work() {
 
       {/* Project Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/*  {projectData.slice(0, 3).map((project, index) => (*/}
-        {projectData.map((project, index) => (
+          {/*  {projectData.slice(0, 3).map((project, index) => (  {projectData.map((project, index) => (*/}
+          {projectData.slice(0, 3).map((project, index) => (
           <div
             key={index}
             onClick={() => setSelectedProject(project)}
             className="cursor-pointer p-4 border-2 border-cyan-200 rounded-lg bg-gray-800 hover:scale-105 transition-transform duration-150"
           >
             <img
-  src={`${basePath}${project.img?.[0] || "binary.jpg"}`}
-  alt={project.name}
-  className="w-full h-52 object-cover rounded mb-2"
-  onError={(e) => {
-    e.currentTarget.src = `${basePath}binary.jpg`;
-  }}
-/>
+              src={`${basePath}${project.img?.[0] || "binary.jpg"}`}
+              alt={project.name}
+              className="w-full h-52 object-cover rounded mb-2"
+              onError={(e) => {
+                e.currentTarget.src = `${basePath}binary.jpg`;
+              }}
+            />
 
 
             <h2 className="text-2xl font-semibold mt-4">{project.name}</h2>

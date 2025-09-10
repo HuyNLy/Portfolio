@@ -35,7 +35,7 @@
       "https://github.com/HuyNLy/portfolio",
       "https://your-portfolio.com"
     ],
-    "img": [],
+    "img": ["binary.jpg"],
     "description": "A personal portfolio built with Next.js and Tailwind CSS.",
     "tech": ["Next.js", "React", "Tailwind", "TypeScript"]
   }
