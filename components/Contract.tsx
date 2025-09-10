@@ -26,6 +26,7 @@ export default function Contact() {
         setStatus("Failed to send ❌");
       }
     } catch (err) {
+      console.error(err);
       setStatus("Something went wrong ❌");
     }
   }
