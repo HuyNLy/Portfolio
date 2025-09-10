@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Spotspot",
+    "date": "2025",
+    "link": [],
+    "img": ["spotspot1.png", "spotspot2.png", "spotspot3.png"],
+    "description": "SpotSpot is a Chrome extension that scans your current webpage such as job listings, emails, or event invites - and automatically highlights relevant U.S. states or cities on a map. Whether you're job hunting, planning travel, or just curious, SpotSpot turns vague location mentions into instant visual context.",
+    "tech": ["TypeScript", "Vite"]
+  },
+  {
+    "name": "Little Lemon Restaurant",
+    "date": "2025",
+    "link": [
+      "https://github.com/HuyNLy/Little-Lemon-App"
+    ],
+    "img": ["littleLemon1.png"],
+    "description": "Little Lemon App is a React Native capstone project built for the Meta Front-End Developer course. It simulates a mobile food ordering experience for a Mediterranean restaurant based in Chicago. The app features a full onboarding flow with SQLite-based profile persistence, dynamic menu browsing from a remote API, and category-based filtering. It also includes image upload, custom fonts, and a Mediterranean-inspired UI. Designed with modular components and Expo tooling, the project showcases practical mobile architecture and local data handling",
+    "tech": [ "JavaScript", "TypeScript", "ReactNative"]
+  },
+  {
+    "name": "K-Detector",
+    "date": "2024",
+    "link": [
+      "https://github.com/HuyNLy/K-Detector",
+      "https://k-detector.netlify.app/"
+    ],
+    "img": ["kdetector1.png", "kdetector2.png", "kdetector3.png"],
+    "description": "K-Detector is a lightweight React-based web app designed to simulate object detection logic in a playful, beginner-friendly format. Built with modular components and clean separation of concerns, the project emphasizes maintainable architecture and dynamic rendering. It features a custom UI flow inspired by scientific exploration, with interactive elements that demonstrate state management and conditional logic. Ideal for showcasing frontend fundamentals and creative problem framing.",
+    "tech": ["JavaScript", "React"]
+  },
+  {
+    "name": "Portfolio Website",
+    "date": "2024",
+    "link": [
+      "https://github.com/HuyNLy/portfolio",
+      "https://your-portfolio.com"
+    ],
+    "img": [],
+    "description": "A personal portfolio built with Next.js and Tailwind CSS.",
+    "tech": ["Next.js", "React", "Tailwind", "TypeScript"]
+  }
+]
