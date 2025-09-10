@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Full-stack portfolio powered by Next.js and custom REST API. Features dynamic project listings, contact form, and clean UI for recruiters and clients.
 
 ## Getting Started
 

@@ -38,7 +38,7 @@ export default function Contact() {
         <div className="space-y-6">
           <h2 className="text-3xl font-bold mb-4">Let's Connect</h2>
           <p className="text-gray-300">
-            Feel free to reach out — whether it's about a project, opportunity, 
+            Feel free to reach out — whether it&#39;s about a project, opportunity, 
             or just to say hi.
           </p>
 

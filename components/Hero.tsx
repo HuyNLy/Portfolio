@@ -10,7 +10,7 @@ export default function Hero() {
         
         {/* Intro Content */}
         <div className="flex flex-col items-center text-center lg:items-start lg:text-left max-w-lg mt-20 z-10">
-          <h1 className="" >Hi, I'm Huy</h1>
+          <h1 className="" >Hi, I&#39;m Huy</h1>
           <h3 className="animate-pulse self-center text-blue-200">Software Engineer</h3>
         </div>
 

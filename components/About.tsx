@@ -24,7 +24,7 @@ export default function About() {
           />
         </div>
         <div>
-          <h3>It's me, Huy Ly. Just a guy who loves to build cool stuff.</h3>
+          <h3>It&apos;s me, Huy Ly. Just a guy who loves to build cool stuff.</h3>
           <p className="max-w-xl ">
             Still learning, still building, still figuring things out. But I care deeply about writing clean code, solving real problems, and making tech that helps people.
           </p>
