@@ -25,13 +25,19 @@ export default function About() {
         </div>
         <div>
           <h3>It&apos;s me, Huy Ly. Just a guy who loves to build cool stuff.</h3>
-          <p className="max-w-xl ">
-            Still learning, still building, still figuring things out. But I care deeply about writing clean code, solving real problems, and making tech that helps people.
+          <p className="text-lg md:text-xl leading-relaxed md:leading-loose max-w-xl">
+            Still<span className="text-blue-400 animate-pulse"> learning </span>,
+            still<span className="text-pink-400 animate-pulse"> building</span> , 
+            still<span className="text-green-400 animate-pulse"> figuring things out</span> .  
+            <br />
+            But I care deeply about writing clean code, solving real problems, 
+            and making tech that helps people.
           </p>
+
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-8 text-6xl">
+      <div className="flex flex-wrap justify-center gap-8 text-5xl">
           <SiJavascript className="hover:text-yellow-400 transition-transform hover:scale-110 hover:animate-bounce" title="JavaScript" />
           <SiTypescript className="hover:text-blue-400 transition-transform hover:scale-110  hover:animate-bounce" title="TypeScript" />
           <RiNextjsFill className="hover:text-black transition-transform hover:scale-110  hover:animate-bounce" title="Next.js" />

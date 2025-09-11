@@ -2,7 +2,7 @@
   {
     "name": "Spotspot",
     "date": "2025",
-    "link": [],
+    "link": ["https://github.com/HuyNLy/Spotspot"],
     "img": ["spotspot1.png", "spotspot2.png", "spotspot3.png"],
     "description": "SpotSpot is a Chrome extension that scans your current webpage such as job listings, emails, or event invites - and automatically highlights relevant U.S. states or cities on a map. Whether you're job hunting, planning travel, or just curious, SpotSpot turns vague location mentions into instant visual context.",
     "tech": ["TypeScript", "Vite"]

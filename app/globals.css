@@ -33,18 +33,28 @@ body {
 }
 @layer base {
   h1 {
-    @apply text-5xl lg:text-6xl font-bold tracking-tight my-8;
+    @apply text-4xl lg:text-5xl font-bold tracking-tight my-6;
   }
   h2 {
-    @apply text-3xl lg:text-4xl font-semibold;
+    @apply text-2xl lg:text-3xl font-semibold;
   }
   h3 {
-    @apply text-2xl lg:text-3xl font-medium mb-4;
+    @apply text-xl lg:text-2xl font-medium mb-3;
   }
   p {
-    @apply text-xl leading-relaxed;
+    @apply text-base lg:text-lg leading-relaxed;
   }
   small {
     @apply text-sm text-gray-500;
   }
+  /* hide scrollbar but allow scrolling */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE/Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+
 }
+
