@@ -1,4 +1,5 @@
 Full-stack portfolio powered by Next.js and custom REST API. Features dynamic project listings, contact form, and clean UI for recruiters and clients.
+-  Deployment@: https://huyly-portfolio.vercel.app
 
 ## Getting Started
 
